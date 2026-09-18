@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: LoginTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.074 s <<< FAILURE! -- in LoginTest
+LoginTest.testRegisterUser -- Time elapsed: 0.032 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "String.contains(java.lang.CharSequence)" because "this.username" is null
+	at Login.checkUserName(Main.java:13)
+	at Login.registerUser(Main.java:39)
+	at LoginTest.testRegisterUser(LoginTest.java:93)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
